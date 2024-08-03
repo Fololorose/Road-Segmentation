@@ -1,20 +1,20 @@
-Road Segmentation with Region Growing
+# Road Segmentation with Region Growing
 
-Overview
+## Overview
 
 This script performs road segmentation and labeling on images using a combination of various image processing techniques including Otsu thresholding, region growing, and morphological operations. The result is an annotated image with road segments highlighted.
 
-Dependencies
+## Dependencies
 
 Ensure you have the following Python packages installed:
 
-numpy
-opencv-python
-matplotlib
+- `numpy`
+- `opencv-python`
+- `matplotlib`
+
 You can install these dependencies using pip:
 
-bash
-Copy code
+```bash
 pip install numpy opencv-python matplotlib
 Script Overview
 
