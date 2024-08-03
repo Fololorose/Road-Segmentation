@@ -24,6 +24,14 @@ Generates a binary seed map for the region growing algorithm based on the specif
 2. regionGrowing(inputImage, seedMap, threshold, connectivity)
 Performs the region growing algorithm on the input image using the provided seed map, threshold, and connectivity.
 
+Script Overview
+
+1. generate_random_seed_map(rows, cols, seed_density)
+Generates a binary seed map for the region growing algorithm based on the specified seed density.
+
+2. regionGrowing(inputImage, seedMap, threshold, connectivity)
+Performs the region growing algorithm on the input image using the provided seed map, threshold, and connectivity.
+
 3. Main Script Execution
 Loads an image from a specified path.
 Converts the image to grayscale and applies Gaussian blur.
@@ -38,6 +46,7 @@ Place Your Image:
 Ensure the image you want to process is placed in the ./RoadSegmentationDataset_TrainingData/images/ directory and update the image_path variable in the script to point to your image.
 Run the Script:
 Execute the script using Python. Open a terminal and run:
+
 bash
 Copy code
 python road_segmentation.py
